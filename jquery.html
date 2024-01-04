@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>
+        Jqery Ex
+    </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="first" class="special">this is 1st division</div>
+<div id="second" class="special">this is 2nd division</div>
+
+<input type="text" >
+<input id="btn" type="button" value="click" >
+
+<h3></h3>
+
+<script>
+    $("#btn").click(function(){
+        $("h3").text("you have clicked the button");
+        $("div").hide();
+    })
+</script>
+</body>
+</html>

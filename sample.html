@@ -1,0 +1,19 @@
+<html>
+    <title>Example1</title>
+<body>
+    <div id="first">
+        <h3>this is 1st h3 tag in 1st division</h3>
+        <h3>this is 2nd h3 tag in 1st division</h3>
+    </div>
+    <div id="second">
+        <h3>this is 1st h3 tag in 2nd division</h3>
+        <h3>this is 2nd h3 tag in 2nd division</h3>
+    </div>
+    <script>
+      let second=document.getElementById("second");
+      let third=document.createElement("h3");
+      third.innerText="this is 3rd h3 tag in 2nd division";
+      second.appendChild(third);
+    </script>
+</body>
+</html>
